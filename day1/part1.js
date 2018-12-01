@@ -5,4 +5,5 @@ const data = require('fs')
     .split(/[\n\r]+/)
     .map(Number)
     .reduce(sum, 0);
+
 console.log(data);
