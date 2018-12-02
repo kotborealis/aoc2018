@@ -11,6 +11,4 @@ const data = require('fs')
     [0]
     .join('');
 
-
-
 console.log(data);
